@@ -77,6 +77,7 @@ $(document).ready(function(){
             accept: ".item",
             // activeClass: "ui-droppable",
             drop: function(event, ui) {
+                event.preventDefault();
                 // $(this).find( "p" ).html( "Dropped!" );
                 // var clone = $(this).clone();
                 // clone.appendTo('.dropped-box');
